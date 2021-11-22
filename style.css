@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.spacer{
+    height: 40px;
+}
+[class*="col-"]{
+    height: 60px;
+    background-color: blue;
+    border: 1px solid white;
+}
+.boxannidato{
+    height: 100%;
+    padding: 10px;
+}
+.boxannidato div{
+    background-color: green;
+    height: 100%;
+    border: 1px solid white;
+}
+.align{
+    width: 100%;
+}
+.half{
+    width: 50%;
+    border: none;
+}
+.half div:first-child{
+    border-bottom: none;
+}
+.half div:last-child{
+    border-top: none;
+}
+.middle{
+    align-self: center;
+}
+.bot{
+    align-self: flex-end;
+}
